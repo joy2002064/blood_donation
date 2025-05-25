@@ -4,12 +4,12 @@ import { Donor } from '../types';
 
 // Mock donor data - in a real app, this would come from an API
 const donors: Donor[] = [
-  { id: 1, name: 'John Smith', bloodType: 'O+', city: 'New York', lastDonation: '2023-11-15' },
-  { id: 2, name: 'Sarah Johnson', bloodType: 'A-', city: 'Los Angeles', lastDonation: '2023-12-03' },
-  { id: 3, name: 'Michael Brown', bloodType: 'B+', city: 'Chicago', lastDonation: '2023-10-22' },
-  { id: 4, name: 'Emily Davis', bloodType: 'AB+', city: 'Houston', lastDonation: '2024-01-07' },
-  { id: 5, name: 'Robert Wilson', bloodType: 'O-', city: 'Phoenix', lastDonation: '2023-09-30' },
-  { id: 6, name: 'Jennifer Lee', bloodType: 'A+', city: 'Philadelphia', lastDonation: '2024-02-14' },
+  { id: 1, name: 'Abdul Rahman', bloodType: 'O+', city: 'Dhaka', lastDonation: '2024-02-20' },
+  { id: 2, name: 'Fatima Begum', bloodType: 'A-', city: 'Chittagong', lastDonation: '2024-02-15' },
+  { id: 3, name: 'Mohammad Karim', bloodType: 'B+', city: 'Sylhet', lastDonation: '2024-02-18' },
+  { id: 4, name: 'Nusrat Jahan', bloodType: 'AB+', city: 'Rajshahi', lastDonation: '2024-02-22' },
+  { id: 5, name: 'Rashid Ahmed', bloodType: 'O-', city: 'Khulna', lastDonation: '2024-02-19' },
+  { id: 6, name: 'Tahmina Akter', bloodType: 'A+', city: 'Barisal', lastDonation: '2024-02-21' },
 ];
 
 const DonorGrid: React.FC = () => {
